@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.126 (w)1999-2026 BSI
+[*] Wed Nov 18 10:03:39 2026
+[*]
+[dumpfile] "/home/hung2006/asic_projects/uart_sta/uart_tx.vcd"
+[dumpfile_mtime] "Wed Nov 18 09:40:46 2026"
+[dumpfile_size] 164651
+[savefile] "/home/hung2006/asic_projects/uart_sta/uart_tx.gtkw"
+[timestart] 0
+[size] 1920 961
+[pos] -27 -24
+*-23.497915 26170000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 283
+@420
+tb_uart_tx.CLKS_PER_BIT
+tb_uart_tx.CLK_PERIOD
+@28
+tb_uart_tx.clk
+tb_uart_tx.rst_n
+tb_uart_tx.tx
+tb_uart_tx.tx_busy
+@22
+tb_uart_tx.tx_data[7:0]
+@29
+tb_uart_tx.tx_start
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,17 @@
+read_liberty -lib ../OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
+
+read_verilog rtl/uart_tx.v
+
+hierarchy -check -top uart_tx
+
+synth -top uart_tx
+
+dfflibmap -liberty ../OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
+
+abc -liberty ../OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
+
+clean
+
+stat -liberty ../OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
+
+write_verilog -noattr netlist/uart_tx_nangate.v

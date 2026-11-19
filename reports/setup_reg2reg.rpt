@@ -1,0 +1,388 @@
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _379_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.69 ^ _281_/ZN (AND4_X1)
+     4    6.00    0.02    0.07    0.76 ^ _290_/ZN (AND4_X1)
+     1    2.41    0.01    0.03    0.79 v _296_/ZN (NAND3_X1)
+     1    1.56    0.01    0.06    0.84 v _299_/Z (XOR2_X1)
+     1    1.13    0.01    0.03    0.87 ^ _300_/ZN (NOR2_X1)
+                  0.01    0.00    0.87 ^ _379_/D (DFFR_X1)
+                                  0.87   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _379_/CK (DFFR_X1)
+                         -0.03   19.77   library setup time
+                                 19.77   data required time
+-----------------------------------------------------------------------------
+                                 19.77   data required time
+                                 -0.87   data arrival time
+-----------------------------------------------------------------------------
+                                 18.90   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _378_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.69 ^ _281_/ZN (AND4_X1)
+     4    6.00    0.02    0.07    0.76 ^ _290_/ZN (AND4_X1)
+     3    5.02    0.02    0.04    0.81 ^ _293_/ZN (AND2_X1)
+     1    1.54    0.02    0.02    0.82 v _297_/ZN (OAI21_X1)
+     1    1.13    0.02    0.04    0.86 ^ _298_/ZN (AOI21_X1)
+                  0.02    0.00    0.86 ^ _378_/D (DFFR_X1)
+                                  0.86   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _378_/CK (DFFR_X1)
+                         -0.04   19.76   library setup time
+                                 19.76   data required time
+-----------------------------------------------------------------------------
+                                 19.76   data required time
+                                 -0.86   data arrival time
+-----------------------------------------------------------------------------
+                                 18.90   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _377_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.69 ^ _281_/ZN (AND4_X1)
+     4    6.00    0.02    0.07    0.76 ^ _290_/ZN (AND4_X1)
+     3    5.02    0.02    0.04    0.81 ^ _293_/ZN (AND2_X1)
+     1    1.05    0.01    0.01    0.81 v _295_/ZN (NOR2_X1)
+                  0.01    0.00    0.81 v _377_/D (DFFR_X1)
+                                  0.81   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _377_/CK (DFFR_X1)
+                         -0.04   19.76   library setup time
+                                 19.76   data required time
+-----------------------------------------------------------------------------
+                                 19.76   data required time
+                                 -0.81   data arrival time
+-----------------------------------------------------------------------------
+                                 18.95   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _376_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.69 ^ _281_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.73 ^ _284_/ZN (AND2_X1)
+     2    3.38    0.01    0.04    0.77 ^ _287_/ZN (AND2_X1)
+     1    1.56    0.02    0.01    0.78 v _291_/ZN (OAI21_X1)
+     1    1.13    0.01    0.03    0.81 ^ _292_/ZN (NOR2_X1)
+                  0.01    0.00    0.81 ^ _376_/D (DFFR_X1)
+                                  0.81   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _376_/CK (DFFR_X1)
+                         -0.03   19.77   library setup time
+                                 19.77   data required time
+-----------------------------------------------------------------------------
+                                 19.77   data required time
+                                 -0.81   data arrival time
+-----------------------------------------------------------------------------
+                                 18.95   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _375_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.69 ^ _281_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.73 ^ _284_/ZN (AND2_X1)
+     2    3.38    0.01    0.04    0.77 ^ _287_/ZN (AND2_X1)
+     1    1.05    0.01    0.01    0.78 v _289_/ZN (NOR2_X1)
+                  0.01    0.00    0.78 v _375_/D (DFFR_X1)
+                                  0.78   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _375_/CK (DFFR_X1)
+                         -0.04   19.76   library setup time
+                                 19.76   data required time
+-----------------------------------------------------------------------------
+                                 19.76   data required time
+                                 -0.78   data arrival time
+-----------------------------------------------------------------------------
+                                 18.98   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _374_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.69 ^ _281_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.73 ^ _284_/ZN (AND2_X1)
+     1    1.05    0.01    0.01    0.74 v _286_/ZN (NOR2_X1)
+                  0.01    0.00    0.74 v _374_/D (DFFR_X1)
+                                  0.74   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _374_/CK (DFFR_X1)
+                         -0.04   19.76   library setup time
+                                 19.76   data required time
+-----------------------------------------------------------------------------
+                                 19.76   data required time
+                                 -0.74   data arrival time
+-----------------------------------------------------------------------------
+                                 19.02   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _373_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.66 ^ _275_/ZN (AND2_X1)
+     2    3.38    0.01    0.04    0.70 ^ _278_/ZN (AND2_X1)
+     1    1.56    0.02    0.01    0.71 v _282_/ZN (OAI21_X1)
+     1    1.13    0.01    0.03    0.74 ^ _283_/ZN (NOR2_X1)
+                  0.01    0.00    0.74 ^ _373_/D (DFFR_X1)
+                                  0.74   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _373_/CK (DFFR_X1)
+                         -0.03   19.77   library setup time
+                                 19.77   data required time
+-----------------------------------------------------------------------------
+                                 19.77   data required time
+                                 -0.74   data arrival time
+-----------------------------------------------------------------------------
+                                 19.03   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _372_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.66 ^ _275_/ZN (AND2_X1)
+     2    3.38    0.01    0.04    0.70 ^ _278_/ZN (AND2_X1)
+     1    1.05    0.01    0.01    0.70 v _280_/ZN (NOR2_X1)
+                  0.01    0.00    0.70 v _372_/D (DFFR_X1)
+                                  0.70   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _372_/CK (DFFR_X1)
+                         -0.04   19.76   library setup time
+                                 19.76   data required time
+-----------------------------------------------------------------------------
+                                 19.76   data required time
+                                 -0.70   data arrival time
+-----------------------------------------------------------------------------
+                                 19.06   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _371_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.62 ^ _272_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.66 ^ _275_/ZN (AND2_X1)
+     1    1.05    0.01    0.01    0.67 v _277_/ZN (NOR2_X1)
+                  0.01    0.00    0.67 v _371_/D (DFFR_X1)
+                                  0.67   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _371_/CK (DFFR_X1)
+                         -0.04   19.76   library setup time
+                                 19.76   data required time
+-----------------------------------------------------------------------------
+                                 19.76   data required time
+                                 -0.67   data arrival time
+-----------------------------------------------------------------------------
+                                 19.09   slack (MET)
+
+
+Startpoint: _348_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _370_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _348_/CK (DFFR_X1)
+     6    8.94    0.02    0.12    0.12 ^ _348_/Q (DFFR_X1)
+     5    7.88    0.03    0.08    0.19 ^ _217_/ZN (AND4_X1)
+     4    5.23    0.02    0.07    0.26 ^ _227_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.33 ^ _236_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.40 ^ _245_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.48 ^ _254_/ZN (AND4_X1)
+     4    5.30    0.02    0.07    0.55 ^ _263_/ZN (AND4_X1)
+     3    4.35    0.01    0.04    0.59 ^ _266_/ZN (AND2_X1)
+     2    3.38    0.01    0.04    0.63 ^ _269_/ZN (AND2_X1)
+     1    1.56    0.02    0.01    0.64 v _273_/ZN (OAI21_X1)
+     1    1.13    0.01    0.03    0.67 ^ _274_/ZN (NOR2_X1)
+                  0.01    0.00    0.67 ^ _370_/D (DFFR_X1)
+                                  0.67   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.20   19.80   clock uncertainty
+                          0.00   19.80   clock reconvergence pessimism
+                                 19.80 ^ _370_/CK (DFFR_X1)
+                         -0.03   19.77   library setup time
+                                 19.77   data required time
+-----------------------------------------------------------------------------
+                                 19.77   data required time
+                                 -0.67   data arrival time
+-----------------------------------------------------------------------------
+                                 19.10   slack (MET)
+
+
