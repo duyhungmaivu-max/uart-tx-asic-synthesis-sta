@@ -14,3 +14,7 @@ __pycache__/
 
 # Build directories
 build/
+
+# Simulation executables
+sim.out
+sim_uart
